@@ -1,0 +1,39 @@
+{
+  "name": "conductor-opencode",
+  "version": "1.0.0",
+  "description": "Conductor - Spec-driven development framework for OpenCode",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "skills",
+    "commands",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "opencode",
+    "conductor",
+    "spec-driven",
+    "development",
+    "ai",
+    "llm"
+  ],
+  "author": "unvoidf",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unvoidf/conductor-opencode"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "opencode": {
+    "skills": "./skills",
+    "commands": "./commands"
+  }
+}

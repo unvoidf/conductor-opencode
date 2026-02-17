@@ -1,0 +1,35 @@
+# Conductor Project
+
+This project uses Conductor for spec-driven development with OpenCode.
+
+## Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `/conductor-setup` | Initialize Conductor for project |
+| `/conductor-implement` | Execute tasks from track plan |
+| `/conductor-new-track` | Create a new track |
+| `/conductor-review` | Review completed work |
+| `/conductor-status` | Show project progress |
+| `/conductor-revert` | Revert previous work |
+
+## Getting Started
+
+1. Run `/conductor-setup` to initialize the project
+2. Follow the interactive prompts to define your product
+3. Start implementing with `/conductor-implement`
+
+## Conductor Context
+
+When the project is set up, reference the context files:
+
+- `@conductor/index.md` - Project context index
+- `@conductor/product.md` - Product definition
+- `@conductor/tech-stack.md` - Technology stack
+- `@conductor/workflow.md` - Development workflow
+- `@conductor/tracks.md` - Tracks registry
+
+## Learn More
+
+- [Conductor for OpenCode](https://github.com/unvoidf/conductor-opencode)
+- [Original Conductor](https://github.com/gemini-cli-extensions/conductor)
