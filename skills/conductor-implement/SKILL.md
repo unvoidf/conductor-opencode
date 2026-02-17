@@ -1,6 +1,9 @@
-# Conductor Implement
+---
+name: conductor-implement
+description: Executes the tasks defined in the specified track's plan
+---
 
-Executes the tasks defined in the specified track's plan.
+# Conductor Implement
 
 ---
 

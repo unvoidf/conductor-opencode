@@ -1,6 +1,9 @@
-# Conductor Review
+---
+name: conductor-review
+description: Reviews the completed track work against guidelines and the plan
+---
 
-Reviews the completed track work against guidelines and the plan.
+# Conductor Review
 
 ---
 

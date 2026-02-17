@@ -1,6 +1,9 @@
-# Conductor Setup
+---
+name: conductor-setup
+description: Scaffolds the project and sets up the Conductor environment
+---
 
-Scaffolds the project and sets up the Conductor environment.
+# Conductor Setup
 
 ---
 

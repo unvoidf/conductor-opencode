@@ -1,6 +1,9 @@
-# Conductor Context
+---
+name: conductor-context
+description: Provides context and the Universal File Resolution Protocol for Conductor-managed projects
+---
 
-Provides context and the Universal File Resolution Protocol for Conductor-managed projects.
+# Conductor Context
 
 ---
 

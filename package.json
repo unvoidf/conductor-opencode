@@ -1,6 +1,6 @@
 {
   "name": "conductor-opencode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Conductor - Spec-driven development framework for OpenCode",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,11 +8,13 @@
     "dist",
     "skills",
     "commands",
-    "templates"
+    "templates",
+    "install.js"
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "postinstall": "node install.js"
   },
   "keywords": [
     "opencode",
@@ -29,8 +31,8 @@
     "url": "https://github.com/unvoidf/conductor-opencode"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "@types/node": "^20.0.0"
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
   },
   "opencode": {
     "skills": "./skills",

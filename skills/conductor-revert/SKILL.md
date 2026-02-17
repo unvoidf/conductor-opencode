@@ -1,6 +1,9 @@
-# Conductor Revert
+---
+name: conductor-revert
+description: Reverts previous work using Git-aware operations
+---
 
-Reverts previous work using Git-aware operations.
+# Conductor Revert
 
 ---
 

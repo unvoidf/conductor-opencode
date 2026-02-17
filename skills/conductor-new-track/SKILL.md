@@ -1,6 +1,9 @@
-# Conductor New Track
+---
+name: conductor-new-track
+description: Plans a track, generates track-specific spec documents and updates the tracks file
+---
 
-Plans a track, generates track-specific spec documents and updates the tracks file.
+# Conductor New Track
 
 ---
 

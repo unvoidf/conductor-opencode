@@ -1,6 +1,9 @@
-# Conductor Status
+---
+name: conductor-status
+description: Displays the current progress of the project
+---
 
-Displays the current progress of the project.
+# Conductor Status
 
 ---
 
